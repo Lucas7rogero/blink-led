@@ -4,26 +4,24 @@
 
 # Projeto Piscar LED com Arduino
 
-Este projeto demonstra como controlar um LED (Light Emitting Diode) usando a placa de desenvolvimento **Arduino Uno**, um dos exercícios mais fundamentais e importantes para quem está começando com eletrônica e programação embarcada.
-
 ## 1. Componentes Necessários
 
-Para replicar este projeto, você precisará dos seguintes componentes:
+Para realizar o projeto, foram usados os seguintes componentes:
 
 *   1 x Placa **Arduino Uno** (ou compatível)
 *   1 x **Protoboard** (Placa de Ensaio)
 *   1 x **LED** (de qualquer cor)
-*   1 x **Resistor** de 220 Ohms (para proteger o LED)
-*   2 x **Fios Jumper** (ou mais, dependendo da conexão)
-*   1 x **Cabo USB** para conectar o Arduino ao computador
+*   1 x **Resistor** de 330 Ohms (para proteger o LED)
+*   3 x **Fios Jumper**
+*   1 x **Cabo USB**
 
 ## 2. Montagem do Circuito
 
 O circuito é simples e segue o princípio básico de ligar um LED com um resistor limitador de corrente.
 
-### 2.1. Diagrama de Fiação (Tinkercad)
+### 2.1. Diagrama de Fiação
 
-O diagrama a seguir, gerado no **Tinkercad Circuits**, ilustra a conexão correta dos componentes:
+O diagrama a seguir, gerado no **Tinkercad**, ilustra a conexão correta dos componentes:
 
 <p align="center">
   <img src="assets/tinkercad.png" width="600">
@@ -31,11 +29,11 @@ O diagrama a seguir, gerado no **Tinkercad Circuits**, ilustra a conexão corret
 
 **Detalhes da Conexão:**
 
-1.  Conecte o **ânodo** (perna mais longa) do LED a uma trilha da protoboard.
-2.  Conecte um terminal do **resistor** de 220 Ohms à mesma trilha do ânodo do LED.
-3.  Conecte o outro terminal do resistor ao **pino digital 13** do Arduino Uno (usando um fio jumper, geralmente vermelho para sinal).
-4.  Conecte o **cátodo** (perna mais curta) do LED a outra trilha da protoboard.
-5.  Conecte o cátodo do LED ao pino **GND** (Terra) do Arduino Uno (usando um fio jumper, geralmente preto).
+1.  Conecção do **ânodo** (perna mais longa) do LED a uma trilha da protoboard.
+2.  Conecção de um terminal do **resistor** de 330 Ohms à mesma trilha do ânodo do LED.
+3.  Conecção do outro terminal do resistor ao **pino digital 13** do Arduino Uno (usando um fio jumper, geralmente vermelho para sinal).
+4.  Conecção do **cátodo** (perna mais curta) do LED a outra trilha da protoboard.
+5.  Conecção do cátodo do LED ao pino **GND** (Terra) do Arduino Uno (usando um fio jumper, geralmente preto).
 
 ### 2.2. Montagem Física (Protoboard)
 
