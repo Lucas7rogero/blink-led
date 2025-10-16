@@ -81,7 +81,4 @@ void loop() {
 
 O vídeo a seguir demonstra o LED piscando após o código ser carregado na placa Arduino:
 
-<p align="center">
-  <video src="assets/video_funcionamento.mp4" width="500" controls>
-  </video>
-</p>
+[Vídeo do funcionamento](https://drive.google.com/file/d/1iE7mF9LxcKLKZka8bSFb2T7IoDSAXuyC/view?usp=sharing)
